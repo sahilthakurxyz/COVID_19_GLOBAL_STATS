@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">        
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Covid-19 Status</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8f84a9cef0.js" crossorigin="anonymous"></script>
+  <header id="top">
+    <div class="logo">
+        <img src="covid19logo.png" alt="">
+        <p>COVID-19 GLOBAL<br />STATISTICS</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="./resources/loginpage/about.html">ABOUT</a></li>
+          
+            <li><a href="./resources/loginpage/login.html">LOGIN</a></li>
+            <li><a href="./resources/loginpage/register.html">SIGN IN</a></li>
+        </ul>
+    </nav>
+  </header>
+
+<header>
+        <div id="header">
+    
+<div class="search-box">
+   
+    <div class="search-btn">
+        <input type="text" id="search" class="search" placeholder="Search Country...">
+        <input type="button" id="btnsearch" class="w3-button w3-white"  onclick="searchData()"  value="Search">
+        <input type="button" id="btnClear" class="w3-button w3-white"  onclick="clearFilter()"  value="Clear">
+    </div>
+    <h3><a id="time"> </a></h3>
+</div>
+
+</div>
+<!-- <hr> -->
+</header>
+</head>
+<body>
+<div class="body-image">
+    <table id="users"></table>
+<hr>
+<script src="script.js"></script>
+</div>
+</body>
+
+</html>

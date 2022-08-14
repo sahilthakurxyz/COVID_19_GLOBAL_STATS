@@ -1,0 +1,208 @@
+ *{
+   margin: 0;
+   padding: 0;
+   background: lightpink,url(covid.jpeg);
+   
+    /* color:white; */
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto; 
+  }
+  #top{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  border-radius: 7px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #394e21;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position:static;
+
+}
+
+  .logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    /* background-color: rgba(201, 83, 32, 0.533); */
+    
+    }
+    .logo img{
+        width: 100px;
+    
+    }
+    .logo p{
+        font-weight: bold;
+        color: #8315c3;
+        font-size: 1.2rem;
+    
+    }
+
+    nav ul {
+      display: flex;
+      align-items: center;
+      }
+      nav ul li{
+          list-style: none;
+          
+      }
+      nav ul li:last-child{
+      padding-right: 20px;
+      }
+      nav ul li a{
+          text-decoration: none;
+          color: #fff;
+          font-size: 17px;
+          font-weight: 500;
+          padding: 10px;
+          margin-left: 5px;
+          /* background-color:rgb(40, 125, 65); */
+          border-radius: 30px;
+      }
+      .search-box{
+        display: flex;
+        align-items: center;
+    max-width: 1200px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgb(110, 168, 106);
+    width: 100%;
+  color: #FFF;
+    height: 60px;
+    margin: 0 auto;
+    /* background-color: #F3F2F2; */
+    justify-content: space-between;
+    margin-bottom: 20px;
+      }
+      .search-btn{
+        background-color: #506b34;
+        color: #FFF;
+      }
+      .body-image{
+        background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(stats.jpg);
+        width: 100%;
+        background-size:cover;
+      }
+  /* body {
+    width: 90%;
+    height: 90%; */
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #cccccc;
+  } */
+
+hr{
+  /* background: rgb(3, 112, 5); */
+  height: 2px;
+  color: antiquewhite;
+ 
+}
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    /* border: 2px solid rgb(139, 131, 131); */
+    /* box-sizing: border-box; */
+    /* align-items: center; */
+  }
+
+
+  
+  td, th {
+    border: 1px solid #FFF;
+    padding: 0.3rem;
+    color: #fff3f3;
+  }
+
+  h2{
+    /* color: rgb(102, 12, 141); */
+    
+    /* background-image: url(corona.png); */
+    margin-bottom: 20px;
+height: 300px;
+    text-align: center;
+    font-size: 30px;
+    /* color: #fff; */
+    /* text-decoration: underline #fff; */
+   
+  }
+ 
+  /* h3{
+    
+    display: block;
+    text-align: end;
+    text-decoration: dotted red;
+
+  } */
+ 
+  #search{
+/* width: 30%;
+padding: 10px 10px;
+margin: 8px 0; */
+/* border: 2px solid black; */
+/* color: black; */
+/* background: #fff; */
+box-sizing: border-box;
+color: black;
+
+  /* align-items: flex-end;
+   */
+
+}
+
+
+.search-btn .search{
+  width: 360px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 6px;
+
+  color: #FFF;
+  padding-left: 15px;
+  font-size: 1.1em;
+  }
+#btnsearch{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid wheat;
+  padding: 3px;
+  background-color: blue;
+  
+  height: 40px;
+
+  border-radius: 7px;
+  position: relative;
+  cursor: pointer;
+}
+#btnsearch:hover{
+  border: 2px solid #fff;
+  background:   red;
+}
+#btnClear{
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  background-color: blue;
+  border: 1px solid wheat;
+  padding: 3px;
+
+  height: 40px;
+
+  border-radius: 7px;
+  position: relative;
+  cursor: pointer;
+}
+#btnClear:hover{
+  border: 1px solid #fff;
+  background:   #fff;
+  border: 3px solid blue;
+
+}
